@@ -1,0 +1,4 @@
+/home/sensetime/miniconda3/lib/python3.7/site-packages/mlfromscratch-0.0.4-py3.7.egg
+/home/sensetime/miniconda3/bin/futurize
+/home/sensetime/miniconda3/bin/pasteurize
+/home/sensetime/miniconda3/bin/easy_install

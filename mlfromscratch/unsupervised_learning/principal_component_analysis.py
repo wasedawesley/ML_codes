@@ -13,7 +13,7 @@ class PCA():
         """ Fit the dataset to the number of principal components specified in the
         constructor and return the transformed dataset """
         covariance_matrix = calculate_covariance_matrix(X)
-
+        # import pdb; pdb.set_trace()
         # Where (eigenvector[:,0] corresponds to eigenvalue[0])
         eigenvalues, eigenvectors = np.linalg.eig(covariance_matrix)
 

@@ -2,7 +2,8 @@ from __future__ import print_function
 from sklearn import datasets
 import matplotlib.pyplot as plt
 import numpy as np
-
+import sys
+sys.path.append('/home/sensetime/Documents/machine-learning/ML-From-Scratch')
 from mlfromscratch.supervised_learning import LDA
 from mlfromscratch.utils import calculate_covariance_matrix, accuracy_score
 from mlfromscratch.utils import normalize, standardize, train_test_split, Plot

@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cmx
 import matplotlib.colors as colors
 import numpy as np
+import sys
+sys.path.append('/home/sensetime/Documents/machine-learning/ML-From-Scratch')
 from mlfromscratch.unsupervised_learning import PCA
 
 def main():
@@ -14,7 +16,7 @@ def main():
     data = datasets.load_digits()
     X = data.data
     y = data.target
-
+    # import pdb; pdb.set_trace()
     # Project the data onto the 2 primary principal components
     X_trans = PCA().transform(X, 2)
 
